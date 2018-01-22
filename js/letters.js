@@ -26,7 +26,7 @@ if ([selectedLetter]) { //if exists
   counter[selectedLetter]++; //add to obj counter
 }
   
-countLetters(counter,lower.slice(1));
+countLetters(counter,lower.slice(1)); //returns all but the first value :)
 }
 
 $(document).ready(function(){
